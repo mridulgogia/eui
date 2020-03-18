@@ -91,6 +91,7 @@ export const schemaDetectors: EuiDataGridSchemaDetector[] = [
         default="False-True"
       />
     ),
+    isSortable: true,
   },
   {
     type: 'currency',
@@ -132,6 +133,7 @@ export const schemaDetectors: EuiDataGridSchemaDetector[] = [
         default="High-Low"
       />
     ),
+    isSortable: true,
   },
   {
     type: 'datetime',
@@ -164,6 +166,7 @@ export const schemaDetectors: EuiDataGridSchemaDetector[] = [
     sortTextDesc: (
       <EuiI18n token="euiDataGridSchema.dateSortTextDesc" default="Old-New" />
     ),
+    isSortable: true,
   },
   {
     type: 'numeric',
@@ -204,6 +207,7 @@ export const schemaDetectors: EuiDataGridSchemaDetector[] = [
         default="High-Low"
       />
     ),
+    isSortable: true,
   },
   {
     type: 'json',
@@ -238,6 +242,7 @@ export const schemaDetectors: EuiDataGridSchemaDetector[] = [
         default="Large-Small"
       />
     ),
+    isSortable: true,
   },
 ];
 
